@@ -49,6 +49,7 @@ img {
  .nav__link--current{
     color: var(--current-collor)
 }
+
 .container{
     width: 1200px;
     padding: 0 15px;
@@ -58,6 +59,22 @@ img {
 
 .button{
     border: 0;
+}
+.section{
+    padding: 94px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
  /* -----------HEADER----------- */
@@ -163,9 +180,7 @@ transition: var(--transition-effects);
     cursor: pointer;
     color: var(--hover-color);
 }
-.section{
-    padding: 94px 0;
-}
+
 
 /* ----------------HERO----------------- */
 .hero {
@@ -233,18 +248,7 @@ transition: var(--transition-effects);
     gap: 30px;
 }
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
+
 .features__item{
     flex-basis: 270px;
 }
