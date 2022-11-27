@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --prime-color-text: #212121;
     --web-part-inLogo-color: #2196F3;
     --studio-part-inLogo-color: #000000;
@@ -7,12 +7,14 @@
     --sub-prime-color-text: #757575;
     --transition-effects: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-body {
+ .nav__link--current{
+    color: var(--current-collor)
+} */
+/* body {
     font-family: Roboto, sans-serif;
     color: var(--prime-color-text);
-}
-.title {
+} */
+/* .title {
     margin: 0;
     padding: 0;
 }
@@ -40,31 +42,31 @@ p {
 ul{
     margin: 0;
     padding: 0;
-}
-img {
+} */
+
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
-}
- .nav__link--current{
-    color: var(--current-collor)
-}
+} */
 
-.container{
+
+
+/* .button{
+    border: 0;
+} */
+/* .section{
+    padding: 94px 0;
+} */
+
+/* .container{
     width: 1200px;
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.button{
-    border: 0;
-}
-.section{
-    padding: 94px 0;
-}
-
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -75,18 +77,19 @@ img {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+} */
+
 
  /* -----------HEADER----------- */
- header{
+ /* header{
     border-bottom: 1px solid #ECECEC;
  }
 .container__header{
     display: flex;
     align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -100,8 +103,8 @@ img {
 }
 .logo__studio{
     color: var(--studio-part-inLogo-color);
-}
-.nav {
+} */
+/* .nav {
  color: inherit;
 }
 
@@ -125,11 +128,12 @@ img {
     bottom: 0;
     left: 0;
 }
-.nav__list .nav__link{
+ 
+.nav__link { 
+    
     display: block;
     padding: 32px 0;
-}
-.nav__link {
+
     position: relative;
     font-weight: 500;
     font-size: 14px;
@@ -143,8 +147,8 @@ img {
 .nav__link:focus{
     color: var(--hover-color);
     cursor: pointer;
-}
-.kontakts{
+} */
+/* .kontakts{
 margin-left: auto;
 list-style: none;
 display: flex;
@@ -179,11 +183,11 @@ transition: var(--transition-effects);
 .kontakts__mail:focus{
     cursor: pointer;
     color: var(--hover-color);
-}
+} */
 
 
 /* ----------------HERO----------------- */
-.hero {
+/* .hero {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -226,10 +230,10 @@ transition: var(--transition-effects);
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
-}
+} */
 
 /* --------------------FEATURES-------------------- */
-.features__ikon{
+/* .features__ikon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,10 +269,10 @@ transition: var(--transition-effects);
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--sub-prime-color-text);
-}
+} */
 
 /*------------------ABOUT---------------- */
-.about{
+/* .about{
     padding-top: 0;
 }
 .about__list{
@@ -309,10 +313,10 @@ position: relative;
     color: #FFFFFF;
     background-color: rgba(47, 48, 58, 0.8);
 
-}
+} */
 
 /* -----------------НАША КОМАНДА------------------ */
-.team__title {
+/* .team__title {
     margin-bottom: 50px;
     padding: 0;
     font-weight: 700;
@@ -384,10 +388,10 @@ padding: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--sub-prime-color-text);
-}
+} */
 
 /* --------------------CLIENTS------------------- */
-.clients__list{
+/* .clients__list{
     display: inline-flex;
     gap: 30px;
 
@@ -426,36 +430,23 @@ padding: 30px;
     font-size: 36px;
     line-height: calc(36/24);
     text-align: center;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;} */
 /*---------------------FOOTER-------------------  */
 
-.footer {
+/* .footer {
     padding: 60px 0;
     background-color: #2F303A;
 }
 .footer__container{
    display: flex;
    align-items: baseline;
-}
-
-.logo {
-    font-family: Raleway, sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31/26);
-    letter-spacing: 0.03em;
-
-}
-
-.logo__web {
-    color: var(--web-part-inLogo-color);
-}
-
-.logo__studio--white{
+} */
+/* .logo__studio--white{
     color: #FFFFFF;
-}
-.address{
+} */
+
+/* ----------------------ADDRESS---------------- */
+/* .address{
     margin-top: 20px;
 }
 .address__list:first-child{
@@ -480,9 +471,9 @@ padding: 30px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 /*---------------- FOOTER-LINKS -------------------- */
-.footer__links {
+/* .footer__links {
     margin-left: 70px;
 }
 
@@ -518,12 +509,12 @@ padding: 30px;
 }
 .ikons__footer:hover >.ikons__link{
     background-color: #2196F3;
-}
+} */
 
 
 
 /* ---------------------PORTFOLIO------------------- */
-.portfolio__list{
+/* .portfolio__list{
     display: flex;
     gap: 8px;
     justify-content: center;
@@ -550,17 +541,16 @@ padding: 30px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor: pointer; 
 
-}
+} */
 
 /* ------------------CARDS------------------ */
 
-
+/* 
 .projects{
     display: flex;
     flex-wrap: wrap;
      margin: -15px;
 }
-
 
 .projects__item{
     width: 370px;
@@ -607,7 +597,7 @@ padding: 63px 24px;
 }
 
 /* --------------ПРИКЛАДИ ПРОЕКТІВ---------------- */
-.projects__link {
+/* .projects__link {
     text-decoration: none;
     color: inherit;
 }
@@ -623,10 +613,10 @@ padding: 63px 24px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
     color: var(--sub-prime-color-text);
-}
+}  */
 
 /* ----------------------BACKDROP--------------------- */
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -684,11 +674,11 @@ fill: #2196F3;
 .backdrop.is-hidden .modal{
 transform: scale(1.1) translate(-50%, -50%);
 
-}
+} */
 
 
 /* -------------------FORM FOOTER------------------ */
-.footer__form-title{
+/* .footer__form-title{
     display: block;
     font-weight: 700;
     font-size: 14px;
@@ -750,19 +740,19 @@ transform: scale(1.1) translate(-50%, -50%);
     letter-spacing: 0.06em;
     cursor: pointer;
 
-}
-.footer__button-text{
+} */
+/* .footer__button-text{
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.06em;
     color: #FFFFFF;
-}
+} */
 
 
 /* --------------------------MODAL FORM------------------------ */
- .modal{
+ /* .modal{
     
 padding: 40px;
  }
@@ -907,5 +897,5 @@ list-style: none;
     height: 15px;
     background-image: url(../images/hw6/icon\ check.svg);
     outline: transparent;
-}
+} */
 
